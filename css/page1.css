@@ -1,0 +1,110 @@
+
+#skatebazar {
+    background-color: rgb(171, 186, 217);
+}
+#skateyabsit {
+    background-color: rgb(232,138,119);
+}
+#skateyabapp{
+    background-color: rgb(249,235,166);
+}
+.images{
+    width: 55%
+}
+* {
+    font-family: "B Koodak";
+    text-align: center;
+}
+
+a{
+    font-family:"B Koodak";
+    font-style: inherit;
+    font-size: large;
+}
+
+.skate_enter{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 70px;
+
+}
+@media only screen and (min-width: 576px) {
+    .skate_enter{
+        margin-top: 200px;
+    }
+    .images{
+        width: 100%;
+    }
+    .skate_enter{
+        font-size:xx-large;
+    }
+    #connect_info{
+        font-size: x-large;
+    }
+}
+/* unvisited link */
+#skatebazar_enter> a:link{
+    color: rgb(0, 111, 217);
+}
+#skateyabsite_enter >a:link {
+    color: rgb(230,12,119);
+}
+#skateyabapp_enter> a:link {
+    color: rgb(178,164,102);
+}
+
+/* visited link */
+#skatebazar_enter >a:visited {
+    color: rgb(0, 111, 217);
+}
+#skateyabsite_enter > a:visited {
+     color: rgb(230,12,119);
+ }
+#skateyabapp_enter >a:visited {
+    color: rgb(178,164,102);
+}
+
+/* selected link */
+/* visited link */
+#skatebazar_enter> a:active {
+    color: rgb(0, 111, 217);
+}
+#skateyabsite_enter >a:active {
+    color: rgb(230,12,119);
+}
+#skateyabapp_enter >a:active {
+    color: rgb(178,164,102);
+}
+#connect{
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 47%;
+    left: -20px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    z-index: 10;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 5s;
+}
+#connect:hover{
+    cursor: pointer;
+}
+#connect_info{
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+    position: fixed;
+    top:40%;
+    width: 25%;
+    height: 20%;
+    padding-right: 4%;
+    padding-top: 30px;
+    border-radius: 20px;
+    left: -25%;
+    transition: 5s;
+    overflow: hidden;
+    text-align: center;
+    font-size: small;
+}
